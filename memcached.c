@@ -1637,7 +1637,7 @@ enum store_item_type do_store_item(item *it, int comm, conn *c, const uint32_t h
 
 #ifdef SOFT_ECC //nezu add *---------------------------------------------------------------------------------*
     if(it->ecc_addr->m_bch == NULL){
-        fprintf(stderr,"set_ecc called from complete nread\n");
+        fprintf(stderr,"set_ecc called from complete nread!\n");
         set_ecc(it);
     } //-------------------------------------------------------------------------------------------*
 #endif
