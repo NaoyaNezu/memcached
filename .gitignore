@@ -1,0 +1,4 @@
+*.o
+*.exe
+memcached-*
+memcached_*

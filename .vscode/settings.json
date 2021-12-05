@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/naoya/Documents/memcached-1.6.9",
+            "binaryPath": "/home/naoya/Documents/memcached-1.6.9/memcached",
+            //"binaryArgs": ["-m 64"]
+        }
+    ]
+}
